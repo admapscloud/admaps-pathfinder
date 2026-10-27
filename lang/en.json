@@ -1,0 +1,54 @@
+{
+	"ADMAPS_PF": {
+		"Settings": {
+			"pathfinding": {
+				"Name": "Pathfinding around walls",
+				"Hint": "A dragged token walks cell by cell around walls. No way through — no move: the unreachable part is drawn dashed and the token stays. A large token never stops with a wall inside it. Square grids; hex and gridless scenes move as in core."
+			},
+			"altBypass": {
+				"Name": "Alt goes through walls",
+				"Hint": "Whose Alt, held while dragging, switches off walls, pathfinding and walking around enemies.",
+				"Choices": {
+					"all": "Everyone",
+					"gm": "Gamemaster only",
+					"off": "No one"
+				}
+			},
+			"avoidEnemies": {
+				"Name": "Walk around enemies in combat",
+				"Hint": "In a started combat, players' tokens walk around visible hostile tokens at the same height. Through an enemy — Alt. Square grid only."
+			},
+			"hidePreviewVision": {
+				"Name": "The drag ghost keeps the fog",
+				"Hint": "While a token is dragged, its ghost copy neither sees nor clears the fog of war before the real move."
+			},
+			"hideDragHighlight": {
+				"Name": "No coloured path cells",
+				"Hint": "The cells of the drag path are not painted in the player's colour."
+			},
+			"facing": {
+				"Name": "Face the way of movement",
+				"Hint": "The token is mirrored toward where it walks, left or right. The token art should look right. The size does not change."
+			},
+			"faceTarget": {
+				"Name": "Face the target",
+				"Hint": "A player's token (the selected one, else their character's) turns toward their last target."
+			},
+			"updateNotice": {
+				"Name": "Update notice",
+				"Hint": "When a newer ADMaps Pathfinder release is out, the GM gets a window on load: the installed and the new version and how to update. «Don't show again» hides it until the next release."
+			}
+		},
+		"Notify": {
+			"Clipped": "The token cannot stand here: a wall would be inside it."
+		},
+		"Update": {
+			"Title": "ADMaps Pathfinder: update available",
+			"Body": "A new version of ADMaps Pathfinder is out: {latest}. You have {current}.",
+			"How": "To update, return to Setup, open Add-on Modules and update ADMaps Pathfinder.",
+			"Notes": "What's new",
+			"Skip": "Don't show again",
+			"Ok": "OK"
+		}
+	}
+}
