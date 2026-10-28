@@ -44,7 +44,7 @@
 		},
 		"Update": {
 			"Title": "ADMaps Pathfinder: есть обновление",
-			"Body": "Вышла новая версия ADMaps Pathfinder: {latest}. У вас стоит {current}.",
+			"Body": "Доступна новая версия ADMaps Pathfinder: {latest} (текущая: {current}).",
 			"How": "Чтобы обновиться, выйдите в меню Setup, откройте модули и обновите ADMaps Pathfinder.",
 			"Notes": "Что нового",
 			"Skip": "Не показывать больше",

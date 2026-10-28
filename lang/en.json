@@ -44,7 +44,7 @@
 		},
 		"Update": {
 			"Title": "ADMaps Pathfinder: update available",
-			"Body": "A new version of ADMaps Pathfinder is out: {latest}. You have {current}.",
+			"Body": "A new version of ADMaps Pathfinder is available: {latest} (current: {current}).",
 			"How": "To update, return to Setup, open Add-on Modules and update ADMaps Pathfinder.",
 			"Notes": "What's new",
 			"Skip": "Don't show again",

@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.0.1
+- Update notice: the window now reads «A new version of ADMaps Pathfinder is available: X (current: Y).»
+
 ## 2.0.0
 The module rewritten for Foundry v13 and any game system.
 - Pathfinding around walls (A*) for dragged tokens; no path — no move, the unreachable part drawn dashed.
